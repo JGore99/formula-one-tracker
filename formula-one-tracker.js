@@ -33,14 +33,21 @@ window.addEventListener("load", function () {
         points,
         wins
       ) {
-        
+
         this.givenName = givenName;
         this.familyName = familyName;
         this.dateOfBirth = dateOfBirth;
         this.nationality = nationality;
         this.team = team;
+
+      
         this.points = parseInt(points, 10);
         this.wins = parseInt(wins, 10);
+        
+
+        this.points = parseInt(points, 10);
+        this.wins = parseInt(wins, 10);
+
       }
   
       getFullName() {
