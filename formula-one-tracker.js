@@ -33,16 +33,14 @@ window.addEventListener("load", function () {
         points,
         wins
       ) {
-        //add default state not loaded)
+        
         this.givenName = givenName;
         this.familyName = familyName;
         this.dateOfBirth = dateOfBirth;
         this.nationality = nationality;
         this.team = team;
-        //this.championships = championships;
         this.points = parseInt(points, 10);
         this.wins = parseInt(wins, 10);
-        //console.log("new driver");
       }
   
       getFullName() {
