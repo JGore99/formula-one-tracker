@@ -1,28 +1,5 @@
 window.addEventListener("load", function () {
-    //list of drivers X
-    //state
-    //function go get data X
-    //populate data in list X
-    //current state of data
-    //sort list X
-  
-    //one top level object all api data
-    //individual driver objects, also all api data
-  
-    //DriverList
-    //driverList
-    //driverList.fetchData()
-    //driverList.displayData()
-    //driveList.state
-    //driverList.sort()
-    //driverList.onComplete(function() {})
-  
-    /*STATE: If api data has returned, run display. if not, show error
-    initial page load
-    error state
-    loaded
     
-    */
     class Driver {
       constructor(
         givenName,
