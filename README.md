@@ -6,6 +6,8 @@ An application that uses an API to automatically track the status of the current
 
 <p>&nbsp;</p>
 
+
+
 ## Objective:
 
 To build an application that works with an API, and sorts table data based on selected criteria.
@@ -21,7 +23,8 @@ To demo the app,
 
 ## Screenshot:
 
-![actual app](https://i.imgur.com/ykB3WgK.png “Formula One Tracker”)
+![actual app](https://i.imgur.com/ykB3WgK.png) “Formula One Tracker”
+
 
 <p>&nbsp;</p>
 
@@ -33,4 +36,3 @@ To demo the app,
    
 3. The data in the table will sort based on the user changing the selection in the drop down.
    
-<p>&nbsp;</p>
