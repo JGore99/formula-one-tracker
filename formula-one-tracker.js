@@ -119,14 +119,11 @@ window.addEventListener("load", function () {
         let myTable = document.getElementById("myTable"); //gets existing table
         myTable.innerHTML = "";
         if (this.state === "loaded") {
-          //let table = document.createElement('table'); //don't know what this is for
           this.driverData.forEach((driver) => {
-            let row = document.createElement("tr"); //make row, row are important
+            let row = document.createElement("tr");
             myTable.appendChild(row);
-            row.setAttribute("class", "row"); //classy row
+            row.setAttribute("class", "row");
   
-            //let nameCell = document.createElement("td");
-            // nameCell.appendChild(this.createDataCell(driver.getFullName())); Cause of cell redundancy
             row.appendChild(this.createDataCell(driver.getFullName())); //append cell to row
   
             row.appendChild(this.createDataCell(driver.getAge())); //append cell to row
@@ -152,7 +149,6 @@ window.addEventListener("load", function () {
         const dropDownTargetValue = event.currentTarget.value;
   
         function dynamicSorter(property) {
-          //Would like to get this working. Currently does not.
           let sortOrder = 1;
           if (property[0] === "-") {
             sortOrder = -1;
